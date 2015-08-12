@@ -25,6 +25,7 @@ background-color:lightgray;
 	float:right;
 	margin-top: 25px;
 }
+
 .top-navigation .links li{
 	display:inline-block;
 	font-family: 'Roboto', sans-serif; 
@@ -44,5 +45,25 @@ color:red;
 cursor:pointer;
 transition:color .5s;
 }
+.introduction {
+    background-image: url('../images/first-background copy.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 45.938rem;
+}
+h1{
+    float:right;
+}
+h3{
+    float:right;
+}
 
+button{
+    height:20px;
+    width:100;
+    background-color:red;
+    color:white;
+}
 
