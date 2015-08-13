@@ -14,16 +14,16 @@ background-color:lightgray;
 
 .top-navigation .content {
 	width:970px;
-	height:70px;
+	height:80px;
 	margin:0 auto;
 }
 
 .logo{
-	height:70px;
+	height:80px;
 }
 .top-navigation .links{
 	float:right;
-	margin-top: 25px;
+	margin-top: 30px;
 }
 
 .top-navigation .links li{
@@ -32,7 +32,7 @@ background-color:lightgray;
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
-	margin-right:15px;
+	margin-right:25px;
 
 
 }
@@ -48,22 +48,40 @@ transition:color .5s;
 .introduction {
     background-image: url('../images/first-background copy.jpg');
     background-position: center bottom;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+ntroduction   background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+    overflow: auto;
 }
-h1{
-    float:right;
-}
-h3{
-    float:right;
-}
-
-button{
-    height:20px;
-    width:100;
-    background-color:red;
+.introduction h1,
+.introduction h3{
     color:white;
+    text-align:center;
+
+}
+.introduction h1{
+margin-top:17rem;
+font-size:50px;
+
+}
+.introduction h3{
+   font-size:25px;
 }
 
+
+.big-button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    margin: 0 auto;
+    display:block;
+    margin-top:1em;
+}
+.big-button:hover{
+    background-color:#ff3300;
+    cursor:pointer;
+}
